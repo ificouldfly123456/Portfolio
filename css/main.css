@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+ body{
+	width:100%;
+	margin: 0;
+}
+/*nav-nav----------------------*/
+.navbar{
+  background: #A781D2;
+  color:black;
+  margin-bottom: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+  color:white;
+  font-family: "Montserrat";
+}
+/*header----------------------*/
+.banner{
+	background-image: url("../images/bg-1.png");
+	background-size: cover;
+	height: 65vh;
+}
+/*.box-title{
+	border:2px dashed blue;
+	margin-top: 15px;
+	position: relative;;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.box-title h1{
+    color:#FE1198;
+    font-weight: lighter;
+    font-family: "Lobster","Fredericka the Great","Lobster" , "Arial";
+    font-size: 200px;
+}*/
+.box-title h3{
+    color:#FE1198;
+    font-weight: lighter;
+    font-family: "Lobster","Fredericka the Great","Lobster" , "Arial";
+     font-size: 50px;
+}
+.girl{
+	float:right;
+	margin-top: -250px;
+    padding-right: 40px;
+}
+
+/*about-me----------------------*/
+#about-me{
+/*margin:35px;*/
+padding-top: 35px;
+text-align: center;
+font-family: "Josefin Sans" , arial;
+}
+.imagenuno{
+	width:280px;
+	height: 280px;
+	border-radius: 50%;
+	padding: 10px;
+	border: 1.5px dashed #8C9EFF;
+}
+.imagendos{
+	width:280px;
+	height: 280px;
+	border-radius: 50%;
+	padding: 10px;
+	border: 1.5px dashed #8C9EFF;
+}
+.bio{
+	font-size: 19px;
+}
+.separador{
+	height: 35px;
+}
+/*skills----------------------*/
+#skills{
+background-color: #67C7EE;
+}
+.skillst1 .title {
+    font-size: 15px;
+    font-weight: 900;
+    padding-left: 12px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.skillst1 .skillbar {
+    width: 100%;
+    height: 50px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #59BDA7;
+    position: relative;
+    margin-bottom: 30px;
+}
+.skillst1 .title {
+    font-size: 15px;
+    font-weight: 900;
+    padding-left: 12px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+.skillst1 .count-bar {
+    position: absolute;
+    background-color: #1f8269;
+    height: 10px;
+    left: 0;
+    bottom: 0;
+}
+.skillst1 .count {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.kills{
+ margin:3px;
+ padding: 30px;
+ border-radius: 40px;
+ transition: 30px;
+
+}
+#skills h1{
+    text-align: center;
+}
